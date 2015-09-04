@@ -18,19 +18,14 @@
 				<projectVersion>1.0.0-SNAPSHOT</projectVersion>
                 <packagingType>apk</packagingType>
 				<android.maven.version>3.8.2</android.maven.version>
-            </properties>
-			
+            </properties>			
         </profile>
-<build>
-  
-	<plugins>
-		
-		
+<build>  
+	<plugins>		
 		<plugin>
 			<groupId>com.jayway.maven.plugins.android.generation2</groupId>
 			<artifactId>android-maven-plugin</artifactId>
-			 <version>3.8.2</version>
-			
+			 <version>3.8.2</version>			
 			<extensions>true</extensions>
 		</plugin>
 	</plugins>
