@@ -28,6 +28,26 @@
 			<artifactId>android-maven-plugin</artifactId>
 			 <version>3.8.2</version>			
 			<extensions>true</extensions>
+			
+			<configuration>
+				  
+					
+					<sdk>
+						<platform>19</platform>
+						<path>D:\android-sdks</path>
+					</sdk>
+					
+					<emulator>
+						<avd>demodevice</avd>
+						<wait>100000</wait>
+						<options>-no-skin</options>
+				</emulator>
+				<zipalign>
+					<verbose>true</verbose>
+				</zipalign>
+				<deleteConflictingFiles>true</deleteConflictingFiles>
+				<undeployBeforeDeploy>true</undeployBeforeDeploy>
+			</configuration>
 		</plugin>
 	</plugins>
 </build>
