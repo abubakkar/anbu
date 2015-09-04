@@ -20,6 +20,7 @@
 				<android.maven.version>3.8.2</android.maven.version>
             </properties>			
         </profile>
+</profiles>
 <build>  
 	<plugins>		
 		<plugin>
