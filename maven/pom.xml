@@ -32,7 +32,7 @@
 	</plugins>
 </build>
         
-</profiles> 
+ 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
